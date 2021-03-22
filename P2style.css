@@ -1,0 +1,22 @@
+body {
+    font-family:'Raleway';
+    src:('Raleway/Raleway-VariableFont_wght.ttf')
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    }
+
+nav {
+        display: flex;
+        align-items:flex-end;
+    }
+    
+nav ul {
+        display: flex;
+    }
+nav li {
+        list-style: none;
+        padding-left: 30px;
+    }
