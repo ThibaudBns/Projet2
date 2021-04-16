@@ -1,61 +1,70 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+    
     <title>Reservia</title>
-    <title>Reservia - Openclassroom</title>
-    <link rel="stylesheet" href="P2style.css">
-    <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>
-  
+    
 </head>
 
-<body> 
+<body>
     <header>
-        <div id="container">
-            <header class="border">
-            <img src="images/logo/Reservia.svg" class="border" alt="logo">
-            <nav class="border">
-                  <ul>
-                        <li>Hébergements</li>
-                        <li>Activités</li>
-                        <li>S'inscrire</li>
-
-                </ul>
+        <a> <img class="logo" src="Reservia.svg " alt="Logo Reservia"></a>
+         <div class="menu">
+             <nav>
+                <a class="nav" href="#">Hébergements</a>
+                <a class="nav" href="#">Activités</a>
              </nav>
         </div>
-     </header>
-
-     <div id= "filtres"> 
-         <h2 class=filtre-title>"Filtres"</h2>
-
-
-
-     </div>
-
+        <a class="inscription" href="#">S'inscrire </a>
+         
     </header>
 
+    <section class="recherche">
+        
+        <h1>Trouver votre hébergement pour des vacances de rêves</h1>
+        <p>En plein centre ville ou en pleine nature</p>
 
+     <div class="search">
+            <div class="mapmarker"><i class="fas fa-map-marker-alt"></i></div>
+            <input class="recherche=" placeholder="Marseille, France"/>
+            <input class="searchbutton" type="submit" value="Rechercher">
+            <button id="searchbutton" type="submit" value="Rechercher"><i class="fas fa-search"></i></button>
+     </div>
+    </section>
 
-
-
-
-
-
-
-
-
-
+	<div class="filters">
+		<div class="titlefilters">Filtres</div>
+		<a href="#" class="iconesAndTexts">
+			<div class="icones">                      
+				<i class="fas fa-money-bill-wave"></i>
+			</div>
+				<span class="textIcones">Économique</span>
+		</a>
+		<a href="#" class="iconesAndTexts">
+			<div class="icones">                      
+				<i class="fas fa-child"></i>
+			</div>
+				<span class="textIcones">Familial</span>
+		</a>
+		<a href="#" class="iconesAndTexts">
+			<div class="icones">                      
+				<i class="fas fa-heart"></i>
+			</div>
+				<span class="textIcones">Romantique</span>
+		</a>
+		<a href="#" class="iconesAndTexts">
+			<div class="icones">                      
+				<i class="fas fa-dog"></i>
+			</div>
+				<span class="textIcones">Animaux autorisés</span>
+		</a>
+	</div>
 </body>
 
-<footer> 
-
-
-
-
-
-
-
-
-
-</footer>
+</html>
