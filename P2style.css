@@ -140,11 +140,13 @@ table {
 @media all and (max-device-width: 980px) {}
 
 header {
-    color: #0065FC;
+    height: 50px;
+    width: 100%;color: #0065FC;
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
 }
+
 
 .logo { 
     width: 100px;
@@ -155,7 +157,9 @@ header {
 nav{
     color:#F2F2F2;
     margin-top: 15px;
-    }
+    display: flex;
+    margin-right: 90px;
+}
 
 
 header a {
