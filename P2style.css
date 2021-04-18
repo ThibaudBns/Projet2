@@ -283,7 +283,8 @@ section p{
 }
 .info{
     display: flex;
-    margin-top: 100px;   
+    align-items: flex-start;
+    
 }
 .info p{
     width: 25px;
@@ -294,9 +295,10 @@ section p{
     background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     font-size: 0.8em;
     margin-right: 15px;
+    margin-top: 10px;
 }
 .info span{
     display: flex;
