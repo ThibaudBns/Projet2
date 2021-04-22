@@ -149,7 +149,6 @@ header {
     justify-content: space-between;
 }
 
-
 .logo { 
     width: 100px;
     height: 50px;
@@ -175,6 +174,7 @@ header a {
 nav a:hover { 
     border-top: 2px solid #0065FC;
     color: #0065FC;
+    text-decoration: none;
 }
 
 body {
@@ -255,10 +255,14 @@ section p{
 .iconesAndTexts{
     display: flex;
     margin-right: 20px;
-    border-top: solid #F2F2F2 2px;
+    border-top: solid #F2F2F2 4px;
     border-bottom: solid #F2F2F2 2px;
     border-right: solid #F2F2F2 2px;
     border-radius: 20px;
+    text-decoration: none;
+    margin-left: auto;
+    align-items: center;
+    
 }
 .iconesAndTexts:hover{
     background-color: #DEEBFF;
@@ -276,15 +280,15 @@ section p{
     align-items: center;
 }
 .textIcones{  
-    color: rgb(223, 169, 169);    
+    color: black;
     font-weight: 800;
+    text-decoration: none;
     padding: 10px;
 }
 }
 .info{
     display: flex;
     align-items: flex-start;
-    
 }
 .info p{
     width: 25px;
@@ -302,9 +306,7 @@ section p{
 }
 .info span{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
+    font-size:small;
     font-weight: 0.8em;
   } 
 .heberAvecPopulaire{
@@ -315,4 +317,211 @@ article{
     width: 68%;   
     background-color: #F2F2F2;
     border-radius: 20px;
+}
+
+article h3{
+    font-weight: 800;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#heberMarseille{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardX2{
+    width: 28%;
+    
+}
+.card{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0 0 6px 3px #adadad46; 
+    transition: 0.4s;  
+}
+.card:hover,.card2:hover,.shadow:hover{
+    transform: scale(1.07);
+}
+.img{
+    width: 100%;
+    height: 55%;   
+    border-radius: 20px 20px 0 0;    
+    object-fit: cover;
+}
+.textAndStar{
+    color: black;
+    margin: 8px 0 7px 15px;
+}
+.space{
+    margin-top: 5px;
+}
+.fa-star{
+    margin-right: 2px;
+}
+.bold{
+    font-weight: 800;
+}
+.blue{
+    color: #0065FC;
+}
+.grey{
+    color: #F2F2F2;
+}
+.star{
+    display: flex;    
+}
+
+h4{
+    color: black;
+    font-weight: 800;
+    margin: 30px 0 30px 30px;
+}
+aside{
+    border-radius: 20px;
+    margin-left: 30px;
+    width: 32%;
+    background-color: #F2F2F2;
+}
+aside h3{
+    font-weight: 800;
+    margin: 10px 0 12px 10px;
+}
+.popu i{
+    margin-top: 10px;
+}
+.card2{
+    border-radius: 22px;
+    display: flex;
+    min-width: 250PX;
+    min-height: 150PX;
+    max-height: 150px;
+    margin: 20px;
+    background-color: white;
+    transition: 0.4s;
+}
+.popu{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+section{
+    margin: 40px 20px;
+}
+section h3{
+    font-weight: 800;
+}
+.img2{ 
+    object-fit: cover;
+    max-width: 150px;
+    border-radius: 20px 0 0 20px;
+    margin: 4px;
+}
+.card2 .container{
+    display: column;
+    color: black;
+    margin: 10px;
+}
+.space2{
+    margin: 5px 0 40px 0;
+}
+#activitées{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 410px;
+}
+.cardX4{
+    height: 390px;
+    width: 25%;  
+}
+.cardX4 p{
+    color: black;
+    font-weight: 600;
+    margin: 10px;
+}
+.right{
+    margin-right: 30px;
+}
+.margin{
+    display: block;
+    margin-bottom: 30px; 
+}
+.shadow{
+    border-radius: 20px;
+    box-shadow: 0 0 6px 3px #b1b1b14b;
+}
+.img3{
+    border-radius: 20px 20px 0 0;
+  }
+.one{
+    height: 340px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+  }
+.two{
+    height: 150px;
+    background-position: center;
+    background-size: cover; 
+    background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+  }
+.tree{
+    height: 110px;
+    background-position:top;
+    background-size: cover;
+    background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+  }
+.four{
+    height: 340px;
+    background-size:cover;
+    background-position:center;   
+    background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+  }
+.five{
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+  }
+.six{
+    height: 130px;
+    background-position: center;
+    background-size: cover;  
+    background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+  }
+  .box2{
+     height: 200px;
+  }
+  .box3{
+    height: 160px;
+ }
+ .box5, .box6{
+    height: 180px;
+ }
+  .shadow p{
+      font-weight: 700;
+      margin: 15px 0 15px 15px;
+  }
+  footer{
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 170px;
+    background-color: #F2F2F2;
+}
+ul{
+    width: 33%; 
+    list-style: none; 
+    margin: 20px 0 20px 20px;  
+}
+li{
+    margin-top: 10px;
+}
+li a{
+    color: black;
 }
