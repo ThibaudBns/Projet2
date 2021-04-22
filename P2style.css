@@ -288,7 +288,7 @@ section p{
 
 .info{
     display: flex;
-    justify-content:right;
+    justify-content:flex-start;
 }
 .info p{
     width: 25px;
