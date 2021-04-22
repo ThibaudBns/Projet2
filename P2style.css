@@ -242,7 +242,7 @@ section p{
 }
 .filters{ 
     margin-top: 20px;
-    display: flex;    
+    display: flex;
 }
 .titlefilters{
     color: black;    
@@ -285,10 +285,10 @@ section p{
     text-decoration: none;
     padding: 10px;
 }
-}
+
 .info{
     display: flex;
-    align-items: flex-start;
+    justify-content:right;
 }
 .info p{
     width: 25px;
@@ -310,27 +310,30 @@ section p{
     font-weight: 0.8em;
   } 
 .heberAvecPopulaire{
+    margin-top: 10px;
+    font-weight: bold;
     display: flex;
     margin: 20px 20px 20px 20px;
 } 
+
 article{    
     width: 68%;   
     background-color: #F2F2F2;
     border-radius: 20px;
 }
 
-article h3{
+h3{
     font-weight: 800;
     margin-top: 30px;
     margin-left: 30px;
 }
+
 #heberMarseille{
     display: flex;
     justify-content: space-evenly;
 }
 .cardX2{
-    width: 28%;
-    
+    width: 28%;   
 }
 .card{
     padding: 3px;
@@ -375,7 +378,6 @@ article h3{
 .star{
     display: flex;    
 }
-
 h4{
     color: black;
     font-weight: 800;
@@ -404,6 +406,7 @@ aside h3{
     background-color: white;
     transition: 0.4s;
 }
+
 .popu{
     display: flex;
     justify-content: space-between;
