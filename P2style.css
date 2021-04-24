@@ -83,14 +83,7 @@ summary,
 time,
 mark,
 audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
+video
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -139,51 +132,34 @@ table {
 
 @media all and (max-device-width: 980px) {}
 
-header {
+header{
     height: 50px;
     width: 100%;
-    color: #0065FC;
-    margin-top: 10px;
-    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
-
-.logo { 
-    width: 100px;
-    height: 50px;
-    margin-left: 5px;
+    .logo{
+        height: 50px;
+        margin-left: 5px;
 }
-
 nav{
-    color:#F2F2F2;
-    margin-top: 25px;
     display: flex;
     margin-right: 90px;
 }
-
-
-header a {
+nav a{
     text-decoration: none;
-    padding-top: 20px;
-    margin-right: 10px;
+    padding: 20px;
     height: 50px;   
-    color: gray  ;
 }
-
-nav a:hover { 
-    border-top: 2px solid #0065FC;
+.act , .heb{
+    border-top:solid 2px transparent;
+    color: black;
+}
+.act:hover , .heb:hover{
+    border-top:solid 2px #0065FC;
     color: #0065FC;
-    text-decoration: none;
 }
-
-body {
-    font-family: 'Raleway';
-    margin: 40px;
-    max-width: 100%;
-}
-
-.inscription{
+.ins{
     height: 50px;
     border-top:solid 2px transparent;
     color: #0065FC;
@@ -194,13 +170,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 4px;
-
 }
-
-section h1{ 
-    margin-top: auto;
+h1{   
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight:800;
 }
 section p{
     font-weight: 500;
@@ -243,14 +216,15 @@ section p{
 .filters{ 
     margin-top: 20px;
     display: flex;
+    width: 60%;
 }
 .titlefilters{
     color: black;    
     font-weight: 800;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 5px !important;
 }
 .iconesAndTexts{
     display: flex;
@@ -311,12 +285,15 @@ section p{
     margin-top: 20px;
   }
 
-.heberAvecPopulaire{
+.heberAvecPopulaire {
     margin-top: 10px;
     font-weight: bold;
     display: flex;
     margin: 20px 20px 20px 20px;
 } 
+.heberAvecPopulaire h3{
+    font-weight: bold !important;
+}
 
 article{    
     width: 68%;   
