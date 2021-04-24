@@ -166,6 +166,8 @@ nav a{
     color: black;
     padding-bottom: 50px;
     padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .act:hover , .heb:hover{
     border-top:solid 2px #0065FC;
@@ -360,18 +362,15 @@ h3{
     font-size: smaller;
     display: flex;
     justify-content: flex-start;
-
-.space .bold {
-    margin-left: 10 px;
 }
 
-}
 .fa-star{
     margin-right: 2px;
     text-decoration: none;
 }
-.bold{
-    font-weight: bold bold;
+.bold {
+    font-weight: bold;
+    padding-left: 2px;
 }
 .blue{
     color: #0065FC;
@@ -411,6 +410,7 @@ aside h3{
     margin: 20px;
     background-color: white;
     transition: 0.4s;
+    text-decoration: none;
 }
 
 .populaires{
@@ -424,6 +424,7 @@ section{
 }
 section h3{
     font-weight: 900;
+    margin-left: 10px;
 }
 .img2{ 
     object-fit: cover;
@@ -435,24 +436,41 @@ section h3{
     display: column;
     color: black;
     margin: 10px;
+
 }
 .space2{
     margin: 5px 0 40px 0;
+    display: flex;
+    justify-content: flex-start;
+    font-size: smaller;
+    font-weight: lighter;
 }
+
+
+
 #activitées{
     display: flex;
     justify-content: center;
     margin-top: 20px;
     height: 410px;
+    text-decoration: none;
+
 }
 .cardX4{
     height: 390px;
     width: 25%;  
+    text-decoration: none;
+
 }
 .cardX4 p{
     color: black;
     font-weight: 600;
     margin: 10px;
+    text-decoration: none !important;
+}
+
+.p{
+    text-decoration: none;
 }
 .right{
     margin-right: 30px;
@@ -473,50 +491,70 @@ section h3{
     background-position: center;
     background-size: cover;
     background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    text-decoration: none;
+
   }
 .two{
     height: 150px;
     background-position: center;
     background-size: cover; 
     background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    text-decoration: none;
+
   }
 .tree{
     height: 110px;
     background-position:top;
     background-size: cover;
     background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    text-decoration: none;
+
   }
 .four{
     height: 340px;
     background-size:cover;
     background-position:center;   
     background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    text-decoration: none;
+
   }
 .five{
     height: 130px;
     background-position: center;
     background-size: cover;
     background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    text-decoration: none;
+
   }
 .six{
     height: 130px;
     background-position: center;
     background-size: cover;  
     background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    text-decoration: none;
+
   }
   .box2{
      height: 200px;
+     text-decoration: none;
+
   }
   .box3{
     height: 160px;
+    text-decoration: none;
+
  }
  .box5, .box6{
     height: 180px;
+    text-decoration: none;
+
  }
   .shadow p{
       font-weight: 700;
       margin: 15px 0 15px 15px;
+      text-decoration: none;
   }
+
   footer{
     margin-top: 30px;
     display: flex;
@@ -528,7 +566,9 @@ section h3{
 ul{
     width: 33%; 
     list-style: none; 
-    margin: 20px 0 20px 20px;  
+    margin: 20px 0 20px 20px;
+    text-decoration: none;
+
 }
 li{
     margin-top: 10px;
@@ -536,4 +576,159 @@ li{
 }
 li a{
     color: black;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:1222px) {
+    .space2{
+        margin: 0 0 10px 0;
+    }
+}
+@media screen and (max-width:1126px) {
+    .space2{
+        margin: 0 0 0 0;
+    }
+}
+@media screen and (max-width:1086px) {
+    #activitées{
+        display:flex;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .heberAvecPopulaire{
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+    
+    article{    
+        width: 100%; 
+        margin-top: 20px;     
+    }
+    aside{    
+        width: 100%;  
+        margin-left: 0; 
+        margin-top: 20px;   
+    }
+    .space2{
+        margin: 5px 0 40px 0;
+    }
+}
+@media screen and (max-width:1000px) {
+.cardX4{
+    width: 40%; 
+    margin: auto; 
+    }
+}
+@media screen and (max-width:844px) {
+    .filters{ 
+        margin-top: 20px;
+        display: flex; 
+        flex-wrap: wrap; 
+    }
+    footer{
+        height: 250px;
+    }
+}
+@media screen and (max-width:748px) {
+    #heberMarseille{
+        display:flex;
+        flex-wrap:wrap;
+        margin: 0;
+    }
+    .cardX2{
+        width: 40%;
+    }
+}
+@media screen and (max-width:645px) {
+    article{    
+        background-color: white; 
+    }
+    .cardX2{
+        width: 96%;
+        margin: 0;
+    }
+    .cardX4{
+        width: 96%;
+        margin: 0;
+    }
+    #activitées{
+        height: 1600px;
+        margin: 0;
+    }
+    aside{
+        margin-left: 0px;  
+    }
+    ul{
+        width:70%;
+        margin: 0;
+        padding: O;
+    }
+    .card:hover,.card2:hover,.shadow:hover{
+        transform: scale(1);
+    }
+    .heberAvecPopulaire{
+        margin: 20px 0px 20px 0px;
+    } 
+    aside{
+        border-radius: 0;  
+    }
+    footer{
+        display: block;
+        height: 350px;
+        padding-top: 20px ;
+    }
+}
+@media screen and (max-width:500px) {
+    .search{
+        display: none;
+    }
+    .search2{
+        width: 40px;   
+        color: white;
+        background-color: #0065FC;
+        border-bottom-right-radius: 12px;
+        border-top-right-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+    header{
+        display:flex;
+            flex-direction: column;   
+    }
+    section{
+        margin-top: 70px; 
+    }
+    nav{
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 50px;
+    }
+    nav a{
+        text-decoration: none;
+        padding: 0;
+        height: 50px;
+    }
+    .act , .heb{
+        display: flex;
+        justify-content: center;  
+        width: 50%;
+        align-items: center;
+    }
+    .act:hover , .heb:hover{
+        border-bottom:solid 2px #0065FC;
+        border-top:none;
+        color: #0065FC;
+    } 
+    .space2{
+        margin: 5px 0 5px 0;
+    }
 }
