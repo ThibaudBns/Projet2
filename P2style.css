@@ -161,7 +161,8 @@ nav a{
     padding: 20px;
     height: 50px;   
 }
-.act , .heb{
+
+.heb {
     border-top:solid 2px transparent;
     color: black;
     padding-bottom: 50px;
@@ -169,9 +170,22 @@ nav a{
     display: flex;
     flex-wrap: wrap;
 }
-.act:hover , .heb:hover{
+.act {
+    border-top:solid 2px transparent;
+    color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.act:hover {
     border-top:solid 2px #0065FC;
     color: #0065FC;
+}
+.heb:hover {
+    background: #deebff;
+    border-top:solid 2px #0065FC;
+    color: #0065fc;
 }
 .ins{
     height: 50px;
