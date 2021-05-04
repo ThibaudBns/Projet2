@@ -163,18 +163,17 @@ nav a{
 }
 
 .heb {
-    border-top:solid 2px transparent;
-    color: black;
+    border-top:solid 2px;
+    color: #0065FC;
     padding-bottom: 50px;
     padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
 }
 .act {
-    border-top:solid 2px transparent;
+    padding-bottom: 52px;
+    padding-top: 52px;
     color: black;
-    padding-bottom: 50px;
-    padding-top: 50px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -183,7 +182,6 @@ nav a{
     color: #0065FC;
 }
 .heb:hover {
-    background: #deebff;
     border-top:solid 2px #0065FC;
     color: #0065fc;
 }
