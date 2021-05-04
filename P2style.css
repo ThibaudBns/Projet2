@@ -134,7 +134,7 @@ table {
 
 body {
     font-family: "Raleway", sans-serif;
-    margin: 0 50px 30px 30px;
+    margin: 0 30px 30px 30px;
     max-width: 100%;
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
@@ -173,7 +173,6 @@ nav a{
 .act {
     padding-bottom: 52px;
     padding-top: 52px;
-    padding-right: 50px;
     color: black;
     display: flex;
     flex-wrap: wrap;
@@ -261,7 +260,7 @@ section p{
 }
 .iconesAndTexts{
     display: flex;
-    margin-right: 20px;
+    margin-right: 0px;
     border-top: solid #F2F2F2 4px;
     border-bottom: solid #F2F2F2 2px;
     border-right: solid #F2F2F2 2px;
@@ -321,7 +320,7 @@ section p{
 .heberAvecPopulaire {
     font-weight: bold;
     display: flex;
-    margin: 5px 20px 20px 20px;
+    margin: 5px 0px 10px 0px;
 } 
 
 
@@ -340,6 +339,8 @@ h3{
 #heberMarseille{
     display: flex;
     justify-content: space-evenly;
+    margin-left: 15px;
+    margin-right: 15px; 
 }
 
 .cardX2{
@@ -400,7 +401,7 @@ h3{
 h4{
     color: black;
     font-weight: 800;
-    margin: 50px 10px 30px 30px;
+    margin: 50px 10px 10px 30px;
 }
 aside{
     border-radius: 20px;
@@ -431,11 +432,11 @@ aside h3{
 .populaires{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px 5px 5px 5px;
 }
 
 section{
-    margin: 10px 20px;
+    margin: 10px 20px 0px 20px;
 }
 section h3{
     font-weight: 900;
@@ -466,7 +467,7 @@ section h3{
 #activitées{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin: 20px 5px 10px 5px;
     height: 410px;
     text-decoration: none;
 
@@ -475,8 +476,9 @@ section h3{
     height: 390px;
     width: 25%;  
     text-decoration: none;
-
+    margin: 10px;
 }
+
 .cardX4 p{
     color: black;
     font-weight: 600;
@@ -488,7 +490,7 @@ section h3{
     text-decoration: none;
 }
 .right{
-    margin-right: 30px;
+    margin-right: 0px;
 }
 .margin{
     display: block;
@@ -688,7 +690,6 @@ li a{
     #heberMarseille{
         display:flex;
         flex-wrap:wrap;
-        margin: 0;
     }
     .cardX2{
         width: 40%;
@@ -716,7 +717,7 @@ li a{
     }
     #activitées{
         height: 1600px;
-        margin: 0;
+        margin: 10px 5px 5px 5px;
     }
     aside{
         margin-left: 0px;  
@@ -730,7 +731,7 @@ li a{
         transform: scale(1);
     }
     .heberAvecPopulaire{
-        margin: 20px 0px 20px 0px;
+        margin: 20px 0px 10px 0px;
     } 
     aside{
         border-radius: 0;  
@@ -746,7 +747,10 @@ li a{
         font-size: 110%;
         font-weight: bold;
     }
-    
+
+    #heberMarseille{
+        margin: 0 0 0 10px;
+    }
     .search{
         display: none;
     }
@@ -757,8 +761,9 @@ li a{
     }
 
     body{
-        margin: 2px 2px 2px;
+        margin: 5px 0 2px 0px;
     }
+
     section{
         margin-top: 70px; 
     }
@@ -784,7 +789,38 @@ li a{
         border-top:none;
         color: #0065FC;
     } 
+
+    .filters{ 
+        margin-top: 20px;
+        display: flex; 
+        flex-wrap: wrap; 
+        text-align: left;
+    }
+
+    .titlefilters{
+        margin-bottom: 10px;
+    }
+
+    .iconesAndTexts{
+        display: flex;
+        align-items: left;
+    }
+
     .space2{
-        margin: 5px 0 5px 0;
+        margin: 2px 0 0 0;
+    }
+    .bold{
+        font-weight: bolder !important;
+    }
+    .#{
+        font-size: 100%;
+    }
+
+    #cardX4 right {
+        margin-block-end: 5px;
+    }
+
+    .heberAvecPopulaire{
+        margin: 0;
     }
 }
