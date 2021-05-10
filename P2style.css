@@ -843,4 +843,7 @@ li a{
     .section{
         margin: none;
     }
+    body{
+        margin: 0 !important;
+    }
 }
