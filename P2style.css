@@ -138,12 +138,11 @@ body {
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
     text-decoration: none;
-    margin: 0 0 0 1rem;
   }
 header{
     height: 50px;
     width: 100%;
-    margin: 0 1rem 30px 1rem;
+    margin: 0 0 30px 0;
     display: flex;
     justify-content: space-between;
 }
