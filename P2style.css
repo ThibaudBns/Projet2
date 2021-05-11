@@ -615,14 +615,6 @@ li a{
     .space2{
         margin: 0 0 0 0;
     }
-    
-}
-@media screen and (max-width:1086px) {
-    #activitées{
-        display:flex;
-        flex-wrap: wrap;
-        height: 800px;
-    }
 }
 @media screen and (max-width:1020px) {
     .heb:hover{
@@ -651,6 +643,14 @@ li a{
         font-weight: 80%;
     }
 }
+
+@media screen and (max-width:1086px) {
+    #activitées{
+        display:flex;
+        flex-wrap: wrap;
+        height: 800px;
+    }
+}
 @media screen and (max-width:1000px) {
     .heb:hover{
         border-top:solid 2px;
@@ -661,6 +661,10 @@ li a{
     .cardX4{
     width: 40%; 
     margin: auto; 
+    }
+
+    body{
+        margin: 0;
     }
 }
 @media screen and (max-width:844px) {
@@ -680,6 +684,10 @@ li a{
     footer{
         height: 250px;
     }
+
+    body{
+        margin: 0;
+    }
 }
 @media screen and (max-width:748px) {
 
@@ -695,9 +703,15 @@ li a{
     .cardX2{
         width: 40%;
     }
+    body{
+        margin: 0;
+    }
 }
 
 @media screen and (max-width:645px) {
+    body{
+        margin: 0;
+    }
     h1 {
         font-size: 60%;
     }
